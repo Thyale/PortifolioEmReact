@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  width: 100vw;
+  height: 100vh;
+}
+
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(24, 24, 24);
+  color: white;
+}
+
+/*Header*/
+
+.Header{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: end;
+  align-items: center;
+  padding: 1em;
+}
+
+.Header label p{
+  cursor: pointer;
+  color: #757575;;
+}
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2px solid #333; /* Cor da borda */
+  outline: none;
+  cursor: pointer;
+}
+
+input[type="radio"]:checked {
+  background-color: #333;
+}
+
+/*Main - Título*/
+
+.Corpo_Titulo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 80%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.nome{
+  width: 150px;
+}
+
+.Corpo_Titulo p{
+  font-size: 20px;
+  font-family: "Teachers", sans-serif;
+}
+
+.Corpo_Titulo div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 10px 20px;
+}
+
+.Corpo_Titulo>div>a>img{
+  width: 30px;
+  background-color: #757575;
+  padding: 4px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+lord-icon{
+  margin-top: 1em;
+}
+
