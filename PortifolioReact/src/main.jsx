@@ -10,10 +10,12 @@ ReactDOM.createRoot(document.getElementById('header')).render(
   </React.StrictMode>,
 )
 
-import Corpo from './Corpo'
+import TituloInicial from './TituloInicial'
+import Infos from './Infos'
 ReactDOM.createRoot(document.getElementById('main')).render(
   <React.StrictMode>
-    <Corpo/>
+    <TituloInicial/>
+    <Infos/>
   </React.StrictMode>
 )
 

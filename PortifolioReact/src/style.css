@@ -16,6 +16,11 @@ body{
   color: white;
 }
 
+body::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+}
+
 /*Header*/
 
 .Header{
@@ -90,3 +95,60 @@ lord-icon{
   margin-top: 1em;
 }
 
+/*section - Infos*/
+
+#Infos{
+  position: absolute;
+  top: 100%;
+  background-color: blueviolet;
+  width: 100vw;
+}
+
+/*Main - Sobre Mim*/
+
+#SobreMim{
+  background-color: blue;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1em;
+  width: 80vw;
+  max-width: 900px;
+  margin: auto;
+}
+
+#SobreMim h1{
+  font-size: 30px;
+  color: rgb(122, 15, 222);
+  margin-bottom: 20px;
+}
+
+#SobreMim p{
+  font-size: 15px;
+  color: #757575;
+  text-align: justify;
+}
+ 
+#SobreMim img{
+  max-width: 300px;
+}
+
+/*Main - Projects*/
+
+
+/*Estilos para dispositivos móveis*/
+@media (max-width: 668px) {
+  /*Main - Sobre Mim*/
+
+  #SobreMim{
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    text-align: center;
+  }
+
+  #SobreMim h1{
+    margin-bottom: 10px;
+  }
+}

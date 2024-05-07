@@ -1,4 +1,4 @@
-function Corpo(){
+function TituloInicial(){
     return(
         <section className="Corpo_Titulo">
             <img className="nome" src="./src/img/TituloNome.png" alt="Ícone do Email" />
@@ -13,4 +13,4 @@ function Corpo(){
     )
 }
 
-export default Corpo
+export default TituloInicial
