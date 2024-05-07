@@ -15,7 +15,7 @@ function Infos(){
               </div>
             </div>
 
-            <div id="Projects"></div>
+            <div id="Projects"></div>  {/*Colocar 6 projetos com links e descrição*/}
 
         </section>
     )
