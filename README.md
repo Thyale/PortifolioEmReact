@@ -1,2 +1,3 @@
 # PortifolioEmReact
- Primeiro teste feito usando react
+ Primeiro projeto feito usando React. Inspirado em Fernanda Kipper (Youtube)
+ Projeto página pessoal.
