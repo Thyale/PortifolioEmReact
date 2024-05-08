@@ -100,14 +100,12 @@ lord-icon{
 #Infos{
   position: absolute;
   top: 100%;
-  background-color: blueviolet;
   width: 100vw;
 }
 
 /*Main - Sobre Mim*/
 
 #SobreMim{
-  background-color: blue;
   gap: 10px;
   display: flex;
   flex-direction: row;
@@ -136,6 +134,85 @@ lord-icon{
 
 /*Main - Projects*/
 
+#Projects{
+  margin-top: 2em;
+}
+
+#Projects h1{
+  text-align: center;
+  margin-bottom: 1em;
+  color: rgb(122, 15, 222);
+}
+
+.ProjetosDivGeral{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  max-width: 900px;
+  margin: auto;
+}
+
+.ProjetosDiv{
+  background-color: #323232;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+  min-width: 200px;
+  border-radius: 10px;
+}
+
+.ProjetosDiv>p{
+  color: rgb(159, 159, 159);
+}
+
+.ProjetosDiv_Links{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ProjetosDiv_Links p{
+  font-size: 25px;
+}
+
+.ProjetosDiv_Links span{
+  color: blueviolet;
+}
+
+.ProjetosDiv_Competencias{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  gap: 5px;
+}
+
+.ProjetosDiv_Competencias p {
+  background-color: #757575;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.linkdeMaisProjetos{
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  text-decoration: none;
+  color: blueviolet;
+  margin-bottom: 2em;
+}
+
+.linkdeMaisProjetos:hover{
+  color: rgb(132, 0, 255);
+}
+
 
 /*Estilos para dispositivos móveis*/
 @media (max-width: 668px) {
@@ -150,5 +227,13 @@ lord-icon{
 
   #SobreMim h1{
     margin-bottom: 10px;
+  }
+
+  /*Main - Projects*/
+
+  .ProjetosDivGeral{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
   }
 }

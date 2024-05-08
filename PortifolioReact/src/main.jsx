@@ -19,4 +19,3 @@ ReactDOM.createRoot(document.getElementById('main')).render(
   </React.StrictMode>
 )
 
-
